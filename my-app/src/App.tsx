@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+import AllRoutes from './routers';
 
 function App() {
   return (
     <div className="App">
-     <p className='text-red-500 text-5xl'>React Project</p>
+      <Navbar/>
+      <AllRoutes/>
+      <Footer/>
     </div>
   );
 }
