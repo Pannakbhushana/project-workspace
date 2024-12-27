@@ -14,7 +14,7 @@ const IntroBanner: React.FC = () =>{
           Lorem Ipsum has been the industry's standard dummy text.
         </p>
         <br />
-        <button className='bg-meta-red rounded-lg py-3 px-4 hover:bg-opacity-50'>Learn More</button>
+        <button className='bg-meta-orange rounded-lg py-3 px-4 hover:bg-opacity-50'>Learn More</button>
       </div>
     </div>
   </div>

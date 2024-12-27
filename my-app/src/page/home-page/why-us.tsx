@@ -6,9 +6,9 @@ const WhyUs: React.FC = () => {
     return <div className="bg-opacity-50 flex justify-end">
         <div className='lg:w-1/2'>
             <div className='mt-20 px-2 lg:px-0 lg:w-[70%] text-start'>
-                <p className="text-4xl font-bold">WHY US</p>
-                <CustomUnderline styles="w-full">
-                    <p className="text-xl font-semibold mt-3 text-start">YOUR TRUSTED DELIVERY PARTNER</p>
+                <p className="text-5xl font-[1000] text-meta-orange">WHY US</p>
+                <CustomUnderline styles="w-full bg-meta-orange">
+                    <p className="text-xl font-semibold mt-3 text-start text-meta-blue">YOUR TRUSTED DELIVERY PARTNER</p>
                 </CustomUnderline>
                 <p className="mt-8 text-gray-700">
                     A seamless delivery is what we aim for. This is why our logistics solutions cater to creating faster,

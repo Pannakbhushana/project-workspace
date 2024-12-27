@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { CustomUnderline } from "../../components/layouts/custom-underline";
 
 const clients = [
     'https://1885.ae/wp-content/uploads/2022/07/talabat.png',
@@ -19,7 +20,9 @@ const clients = [
 const OurClients: React.FC = () => {
     return <div className='pt-[5%] pb-[10%] mt-20 bg-neutral-100 bg-opacity-50'>
         <br />
-        <p className="text-4xl text-center font-bold">OUR CLIENTS</p>
+        <CustomUnderline styles="w-full bg-meta-orange">
+        <p className="text-5xl text-center font-[1000] text-meta-orange">OUR CLIENTS</p>
+        </CustomUnderline>
         <div className="relative overflow-hidden mt-[20%] md:mt-[5%]">
         <Marquee speed={70} direction={'left'} pauseOnHover={true}>
         <div

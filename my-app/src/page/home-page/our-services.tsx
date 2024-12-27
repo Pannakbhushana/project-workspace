@@ -1,11 +1,14 @@
 import React from "react";
 import CustomCard from "../../components/layouts/custom-card";
 import { FaShuttleVan } from "react-icons/fa";
+import { CustomUnderline } from "../../components/layouts/custom-underline";
 
 const OurServices: React.FC = () => {
     return <div className="lg:w-[70%] lg:ml-[15%] mt-17 px-4">
-        <p className="text-4xl font-bold mt-2 text-center">Our Services</p>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-10 justify-items-center">
+        <CustomUnderline styles="w-full bg-meta-orange">
+        <p className="text-5xl font-[1000] text-meta-orange mt-2 text-center">Our Services</p>
+        </CustomUnderline>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-20 justify-items-center">
             <CustomCard
                 Logo={FaShuttleVan}
                 title="Fast & Reliable Services"

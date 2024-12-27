@@ -47,9 +47,9 @@ const Navbar: React.FC = () => {
           <div className='w-1/4 h-full grid content-center'>Mon – Sun: 9.00 am – 8.00pm</div>
           <div className='w-1/4 h-full flex justify-end'>
             <div className='w-1/2 h-full flex justify-around items-center'>
-              <div className='hover:text-meta-red cursor-pointer'><FaFacebook /></div><span>|</span>
-              <div className='hover:text-meta-red cursor-pointer'><FaTwitter /></div><span>|</span>
-              <div className='hover:text-meta-red cursor-pointer'><FaLinkedin /></div>
+              <div className='hover:text-meta-orange cursor-pointer'><FaFacebook /></div><span>|</span>
+              <div className='hover:text-meta-orange cursor-pointer'><FaTwitter /></div><span>|</span>
+              <div className='hover:text-meta-orange cursor-pointer'><FaLinkedin /></div>
             </div>
           </div>
         </div>

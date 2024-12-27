@@ -14,7 +14,7 @@ const CustomCard: React.FC<CardProps> = ({ Logo, title, description, backgroundI
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         style={{
-          backgroundImage: `linear-gradient(rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.7)),
+          backgroundImage: `linear-gradient(rgba(242, 103, 54, 0.3), rgba(242, 103, 54, 0.7)),
           url(${backgroundImage})`,
         }}
       ></div>
