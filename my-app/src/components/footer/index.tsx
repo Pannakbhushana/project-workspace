@@ -89,13 +89,13 @@ export default function Footer() {
             </div>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'} >
-                <span className='hover:text-meta-red text-white'><FaTwitter /></span>
+                <span className='hover:text-meta-orange text-white'><FaTwitter /></span>
               </SocialButton>
               <SocialButton label={'YouTube'} href={'#'}>
-              <span className='hover:text-meta-red text-white'><FaYoutube /></span>
+              <span className='hover:text-meta-orange text-white'><FaYoutube /></span>
               </SocialButton>
               <SocialButton label={'Instagram'} href={'#'}>
-              <span className='hover:text-meta-red text-white'><FaInstagram /></span>
+              <span className='hover:text-meta-orange text-white'><FaInstagram /></span>
               </SocialButton>
             </Stack>
           </Stack>

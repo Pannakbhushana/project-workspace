@@ -6,9 +6,9 @@ interface AnimatedTextProps {
 }
 
 const AnimatedText:React.FC<AnimatedTextProps> = ({ text, title }) => {
-    return <div className="text-center animate-bounce-slow hover:text-meta-red">
+    return <div className="text-center animate-bounce-slow hover:text-meta-orange">
     <p className="text-5xl font-bold">{text}</p>
-    <p className="py-2 px-4 bg-neutral-700 rounded-full mt-2 text-white hover:bg-meta-red">
+    <p className="py-2 px-4 bg-meta-blue rounded-full mt-2 text-white hover:bg-meta-orange">
       {title}
     </p>
   </div>
