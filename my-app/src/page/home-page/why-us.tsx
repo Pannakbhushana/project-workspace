@@ -2,7 +2,7 @@ import React from "react";
 import { WhyUsText } from "../../components/layouts/why-us-text";
 import { CustomUnderline } from "../../components/layouts/custom-underline";
 
-const WhyUs: React.FC = () => {
+const WhyUsSection: React.FC = () => {
     return <div className="bg-opacity-50 flex justify-end">
         <div className='lg:w-1/2'>
             <div className='mt-20 px-2 lg:px-0 lg:w-[70%] text-start'>
@@ -32,4 +32,4 @@ const WhyUs: React.FC = () => {
     </div>
 }
 
-export { WhyUs }
+export { WhyUsSection }

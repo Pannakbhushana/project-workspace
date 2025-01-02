@@ -22,6 +22,10 @@ const Navbar: React.FC = () => {
     setLastScrollY(window.scrollY);
   };
 
+  const handleNavigate = (path:string) => {
+    navigate(path)
+  }
+
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -56,12 +60,11 @@ const Navbar: React.FC = () => {
 
         <div className='bg-white h-1/2'>
           <div className='w-[60%] ml-[20%] h-full flex justify-around items-center'>
-            <StyledText>Home</StyledText>
-            <StyledText>About</StyledText>
-            <StyledText>Service</StyledText>
-            <StyledText>Pages</StyledText>
-            <StyledText>Blog</StyledText>
-            <StyledText>Contact Us</StyledText>
+            <StyledText onClick={()=>handleNavigate('/')}>Home</StyledText>
+            <StyledText onClick={()=>handleNavigate('/about-us')}>About</StyledText>
+            <StyledText onClick={()=>handleNavigate('/services')}>Service</StyledText>
+            <StyledText onClick={()=>handleNavigate('/why-us')}>Why Us</StyledText>
+            <StyledText onClick={()=>handleNavigate('/contact')}>Contact Us</StyledText>
           </div>
         </div>
       </div>
@@ -79,12 +82,11 @@ const Navbar: React.FC = () => {
         </div>
         <div className='bg-white h-1/2'>
         <div className='h-full flex justify-around items-center bg-white'>
-          <StyledText>Home</StyledText>
-          <StyledText>About</StyledText>
-          <StyledText>Service</StyledText>
-          <StyledText>Pages</StyledText>
-          <StyledText>Blog</StyledText>
-          <StyledText>Contact Us</StyledText>
+          <StyledText onClick={()=>handleNavigate('/')}>Home</StyledText>
+          <StyledText onClick={()=>handleNavigate('/about-us')}>About</StyledText>
+          <StyledText onClick={()=>handleNavigate('/services')}>Service</StyledText>
+          <StyledText onClick={()=>handleNavigate('/why-us')}>Why Us</StyledText>
+          <StyledText onClick={()=>handleNavigate('/contact')}>Contact Us</StyledText>
         </div>
         </div>
       </div>
@@ -102,28 +104,28 @@ const Navbar: React.FC = () => {
           </div>
           <Dropdown visible={showHamburgerDropdown} positionStyles="top-full right-1">
             <StyledText onClick={() => {
-              setShowHamburgerDropdown(false)
               navigate('/')
+              setShowHamburgerDropdown(false)
             }}>Home</StyledText>
+
             <StyledText styles='mt-2' onClick={() => {
-              setShowHamburgerDropdown(false)
               navigate('/about-us')
+              setShowHamburgerDropdown(false)
             }}>About</StyledText>
+
             <StyledText styles='mt-2' onClick={() => {
               setShowHamburgerDropdown(false)
-              navigate('/')
+              navigate('/services')
             }}>Service</StyledText>
+
             <StyledText styles='mt-2' onClick={() => {
               setShowHamburgerDropdown(false)
-              navigate('/')
-            }}>Pages</StyledText>
+              navigate('/why-us')
+            }}>Why Us</StyledText>
+            
             <StyledText styles='mt-2' onClick={() => {
               setShowHamburgerDropdown(false)
-              navigate('/')
-            }}>Blog</StyledText>
-            <StyledText styles='mt-2' onClick={() => {
-              setShowHamburgerDropdown(false)
-              navigate('/')
+              navigate('/contact')
             }}>Contact Us</StyledText>
           </Dropdown>
         </span>
