@@ -90,7 +90,7 @@ export default function Contact() {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: '#FF0800' }}
+                      _hover={{ bg: '#F26736' }}
                       icon={<MdFacebook size="28px" />}
                     />
                     <IconButton
@@ -98,7 +98,7 @@ export default function Contact() {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: '#FF0800' }}
+                      _hover={{ bg: '#F26736' }}
                       icon={<BsGithub size="28px" />}
                     />
                     <IconButton
@@ -106,7 +106,7 @@ export default function Contact() {
                       variant="ghost"
                       size="lg"
                       isRound={true}
-                      _hover={{ bg: '#FF0800' }}
+                      _hover={{ bg: '#F26736' }}
                       icon={<BsDiscord size="28px" />}
                     />
                   </HStack>

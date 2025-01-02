@@ -7,7 +7,7 @@ const KeyHighlights: React.FC = () => {
     <div className="mt-20">
       <div className="mt-30 p-5 h-auto bg-neutral-100 py-20 bg-opacity-50">
       <CustomUnderline styles="w-full bg-meta-orange">
-      <p className="text-5xl text-center font-[1000] text-meta-orange">Key Highlights</p>
+      <p className="text-3xl md:text-5xl text-center font-[1000] text-meta-orange">Key Highlights</p>
       </CustomUnderline>
       <p className="mt-20 text-center text-gray-700">
         We’re proud to be one of the fastest-growing & trusted logistic brands

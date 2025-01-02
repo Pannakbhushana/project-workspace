@@ -21,7 +21,7 @@ const OurClients: React.FC = () => {
     return <div className='pt-[5%] pb-[10%] mt-20 bg-neutral-100 bg-opacity-50'>
         <br />
         <CustomUnderline styles="w-full bg-meta-orange">
-        <p className="text-5xl text-center font-[1000] text-meta-orange">OUR CLIENTS</p>
+        <p className="text-3xl md:text-5xl text-center font-[1000] text-meta-orange">OUR CLIENTS</p>
         </CustomUnderline>
         <div className="relative overflow-hidden mt-[20%] md:mt-[5%]">
         <Marquee speed={70} direction={'left'} pauseOnHover={true}>

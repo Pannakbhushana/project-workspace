@@ -6,7 +6,7 @@ const WhyUs: React.FC = () => {
     return <div className="bg-opacity-50 flex justify-end">
         <div className='lg:w-1/2'>
             <div className='mt-20 px-2 lg:px-0 lg:w-[70%] text-start'>
-                <p className="text-5xl font-[1000] text-meta-orange">WHY US</p>
+                <p className="text-3xl md:text-5xl font-[1000] text-meta-orange">WHY US</p>
                 <CustomUnderline styles="w-full bg-meta-orange">
                     <p className="text-xl font-semibold mt-3 text-start text-meta-blue">YOUR TRUSTED DELIVERY PARTNER</p>
                 </CustomUnderline>
