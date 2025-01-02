@@ -1,0 +1,8 @@
+.backgroundImage {
+    /* background-image: url('https://t3.ftcdn.net/jpg/06/21/34/34/360_F_621343481_5sry5J24ppNPsAA4z9ytqOtJSghDzmHj.jpg'); */
+    background-image: url('../.././images/transport.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover; 
+}
