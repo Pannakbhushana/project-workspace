@@ -68,36 +68,35 @@ export default function Footer() {
           spacing={8}>
           <Stack spacing={6}>
             <div className='text-start'>
-            <Box><img src="./hornokplease.png" alt="" onClick={() => navigate('/')} className='cursor-pointer' /></Box>
-            <br />
-            <Text fontSize={'sm'} className='text-white'>© 2024 Transport. All rights reserved</Text>
+              <Box><img src="./hornokplease.png" alt="" onClick={() => navigate('/')} className='cursor-pointer' /></Box>
+              <br />
+              <Text fontSize={'sm'} className='text-white'>© 2024 Transport. All rights reserved</Text>
             </div>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'} >
                 <span className='hover:text-meta-orange text-white'><FaTwitter /></span>
               </SocialButton>
               <SocialButton label={'YouTube'} href={'#'}>
-              <span className='hover:text-meta-orange text-white'><FaYoutube /></span>
+                <span className='hover:text-meta-orange text-white'><FaYoutube /></span>
               </SocialButton>
               <SocialButton label={'Instagram'} href={'#'}>
-              <span className='hover:text-meta-orange text-white'><FaInstagram /></span>
+                <span className='hover:text-meta-orange text-white'><FaInstagram /></span>
               </SocialButton>
             </Stack>
           </Stack>
           <Stack align={'flex-start'}>
-            <Box className='text-white cursor-pointer' onClick={()=>navigate('/')}>Home</Box>
-            <Box className='text-white cursor-pointer' onClick={()=>navigate('/about-us')}>About us</Box>
-            <Box className='text-white cursor-pointe' onClick={()=>navigate('/services')}>Service</Box>
-            <Box className='text-white cursor-pointe' onClick={()=>navigate('/why-us')}>Why Us</Box>
-            <Box  className='text-white cursor-pointe' onClick={()=>navigate('/contact')}>Contact us</Box>
+            <Box className='text-white cursor-pointer' onClick={() => navigate('/')}>Home</Box>
+            <Box className='text-white cursor-pointer' onClick={() => navigate('/about-us')}>About us</Box>
+            <Box className='text-white cursor-pointer' onClick={() => navigate('/services')}>Service</Box>
+            <Box className='text-white cursor-pointer' onClick={() => navigate('/why-us')}>Why Us</Box>
+            <Box className='text-white cursor-pointer' onClick={() => navigate('/contact')}>Contact us</Box>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader ><span className='text-white'>Support</span></ListHeader>
             <Box className='text-white'>Help Center</Box>
-            <Box  className='text-white'>Terms of Service</Box>
-            <Box  className='text-white'>Legal</Box>
-            <Box  className='text-white'>Privacy Policy</Box>
-            <Box  className='text-white'>Satus</Box>
+            <Box className='text-white'>Terms of Service</Box>
+            <Box className='text-white'>Legal</Box>
+            <Box className='text-white'>Privacy Policy</Box>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader><span className='text-white'>Stay up to date</span></ListHeader>

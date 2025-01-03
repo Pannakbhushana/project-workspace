@@ -68,7 +68,7 @@ const WhyUs: React.FC = () => {
                 <div className='w-full md:w-1/2 p-5 text-start flex justify-center'>
                    <div className='lg:w-[80%]'>
                    <CustomUnderline styles="w-full bg-meta-orange">
-                        <p className='mt-2 text-3xl font-[1000] text-meta-orange'>WHY ?</p>
+                        <p className='mt-2 text-3xl md:text-5xl font-[1000] text-meta-orange'>WHY ?</p>
                     </CustomUnderline>
                     <div className='mt-5'>
                         <div className='text-justify'>

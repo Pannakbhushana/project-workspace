@@ -44,11 +44,6 @@ const ContactUs: React.FC = () => {
                             <p><FaLocationDot/></p>
                             <p>53rd St- Al sufouh 2 Dubai United Arab Emirates</p>
                         </div>
-                        <p className='py-5 text-meta-blue text-xl font-[800] underline underline-offset-8'>Jharkhand</p>
-                        <div className='flex gap-2'>
-                            <p><FaLocationDot/></p>
-                            <p>Piska More Ranchi Jharkhand</p>
-                        </div>
                     </div>
                 </div>
                 
