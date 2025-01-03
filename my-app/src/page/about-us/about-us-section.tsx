@@ -23,8 +23,9 @@ const AboutUsSection: React.FC = () => {
             </div>
         </div>
 
-
+        <div className='w-full lg:w-1/2 flex justify-center items-center py-20'>
        <EnquireForm/>
+       </div>
     </div>
 }
 

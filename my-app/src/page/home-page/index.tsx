@@ -14,11 +14,13 @@ const HomePage: React.FC = () => {
       <IntroBanner />
       <OurServices />
       <KeyHighlights />
-      <WhyUsSection/>
-      <OurClients/>
-    <div className='flex justify-end bg-meta-orange'>
-      <EnquireForm/>
-    </div>
+      <WhyUsSection />
+      <OurClients />
+      <div className='flex justify-end bg-meta-orange'>
+        <div className='w-full lg:w-1/2 flex justify-center items-center'>
+          <EnquireForm />
+        </div>
+      </div>
     </>
   );
 };

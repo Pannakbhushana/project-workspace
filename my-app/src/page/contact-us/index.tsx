@@ -11,7 +11,7 @@ const ContactUs: React.FC = () => {
     return (
         <div className="min-h-screen flex flex-col items-center">
             <HeroCard>
-                <div className='text-start text-6xl font-[1000] px-5 md:px-0'>
+                <div className='text-start text-5xl md:text-6xl font-[1000] px-5 md:px-0'>
                     <p className='text-meta-orange'>GET IN</p>
                     <CustomUnderline styles="w-full bg-meta-orange">
                         <p className='mt-2 text-meta-blue'>TOUCH</p>
@@ -21,7 +21,9 @@ const ContactUs: React.FC = () => {
             </HeroCard>
 
             <div className='w-full lg:flex text-start'>
+            <div className='w-full lg:w-1/2 flex justify-center items-center py-20'>
                 <EnquireForm />
+            </div>
                 <div className='lg:w-1/2 flex justify-center items-center'>
                     <div className='w-full md:w-1/2 p-10 md:p-0 min-h-40'>
                         <p className='text-meta-orange text-3xl md:text-5xl font-[1000]'>CONTACT INFO</p>

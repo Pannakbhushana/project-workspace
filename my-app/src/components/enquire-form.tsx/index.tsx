@@ -2,8 +2,7 @@ import React from "react";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 
 const EnquireForm:React.FC = () => {
-    return <div className='w-full lg:w-1/2 flex justify-center items-center py-20'>
-    <div className='bg-meta-orange w-[80%] md:w-[60%] rounded-2xl p-5 md:p-12 pt-20'>
+   return <div className='bg-meta-orange w-[80%] md:w-[60%] rounded-2xl p-5 md:p-12 pt-20'>
         <div className='text-start flex items-center gap-5'>
             <p className='animate-bounce-slow'><TfiHeadphoneAlt color='white' size={60} /></p>
             <p className='text-xl md:text-2xl text-meta-blue font-[800]'>ENQUIRE NOW</p>
@@ -25,7 +24,6 @@ const EnquireForm:React.FC = () => {
             </div>
         </div>
     </div>
-</div>
 }
 
 export { EnquireForm }
