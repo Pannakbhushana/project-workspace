@@ -7,7 +7,7 @@ interface StyledTextProps extends PropsWithChildren {
 
 const StyledText: React.FC<StyledTextProps> = ({ children, onClick, styles }) => {
     return (
-        <div className={`font-bold hover:underline hover:text-meta-orange cursor-pointer text-black ${styles}`}
+        <div className={`font-bold hover:underline hover:text-meta-orange cursor-pointer text-meta-blue ${styles}`}
             onClick={onClick}>{children}</div>
     );
 };

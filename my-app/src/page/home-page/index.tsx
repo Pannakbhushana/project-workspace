@@ -3,9 +3,9 @@ import 'tailwindcss/tailwind.css';
 import { IntroBanner } from './Intro-banner';
 import { OurServices } from './our-services';
 import { KeyHighlights } from './key-highlights';
-import { WhyUs } from './why-us';
+import { WhyUsSection } from './why-us';
 import { OurClients } from './our-clients';
-import Contact from '../../components/layouts/contact';
+import { EnquireForm } from '../../components/enquire-form.tsx';
 
 
 const HomePage: React.FC = () => {
@@ -14,13 +14,13 @@ const HomePage: React.FC = () => {
       <IntroBanner />
       <OurServices />
       <KeyHighlights />
-      <WhyUs/>
-      <OurClients/>
-    <div className='flex justify-end bg-meta-orange bg-opacity-95'>
-      <div className='lg:w-1/2 h-full'>
-        <Contact/>
+      <WhyUsSection />
+      <OurClients />
+      <div className='flex justify-end bg-meta-orange'>
+        <div className='w-full lg:w-1/2 flex justify-center items-center'>
+          <EnquireForm />
+        </div>
       </div>
-    </div>
     </>
   );
 };
