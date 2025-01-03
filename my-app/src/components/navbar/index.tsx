@@ -6,6 +6,9 @@ import { SlMenu } from "react-icons/sl";
 import { useNavigate, NavLink } from 'react-router-dom';
 import Dropdown from '../layouts/dropdown';
 import StyledText from '../layouts/styled-text';
+import { MdOutlineEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Navbar: React.FC = () => {
   const [showNav, setShowNav] = useState(true);
@@ -39,7 +42,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className={`fixed w-full z-999 text-black shadow-lg transition-transform transform
-    ${showNav ? 'translate-y-0' : '-translate-y-full'} h-[80px] md:h-[100px] flex justify-between items-center`}>
+    ${showNav ? 'translate-y-0' : '-translate-y-full'} h-[80px] md:h-[100px] flex justify-between items-center text-meta-blue`}>
 
       {/* Large Screen */}
       <div className='hidden lg:grid place-content-center w-[20%] h-full text-xl font-bold hover:underline underline-offset-8
@@ -48,9 +51,9 @@ const Navbar: React.FC = () => {
       </div>
       <div className='hidden lg:block w-[80%] h-full'>
         <div className='bg-neutral-100 h-1/2 flex items-center bg-opacity-70'>
-          <div className='w-1/4 h-full grid content-center'>transport12@example.com</div>|
-          <div className='w-1/4 h-full grid content-center'>+12 3456789012</div>|
-          <div className='w-1/4 h-full grid content-center'>Mon – Sun: 9.00 am – 8.00pm</div>
+          <div className='w-1/4 h-full flex justify-center items-center gap-4'><MdOutlineEmail size={17} color='#F26736'/> info@hornokplease.ae</div>|
+          <div className='w-1/4 h-full flex justify-center items-center gap-4'><FaPhone size={15} color='#F26736'/> 0562748481</div>|
+          <div className='w-1/4 h-full flex justify-center items-center gap-4'><FaLocationDot size={15} color='#F26736'/> 53rd St- Al sufouh 2, Dubai,UAE</div>
           <div className='w-1/4 h-full flex justify-end'>
             <div className='w-1/2 h-full flex justify-around items-center'>
               <div className='hover:text-meta-orange cursor-pointer'><FaFacebook /></div><span>|</span>
@@ -107,9 +110,9 @@ const Navbar: React.FC = () => {
       </div>
       <div className='hidden md:block lg:hidden w-[60%] h-full text-sm'>
         <div className='h-1/2 flex justify-around items-center bg-neutral-100 opacity-70'>
-          <div className='h-full grid content-center'>transport12@example.com</div>|
-          <div className='h-full grid content-center'>+12 3456789012</div>|
-          <div className='h-full grid content-center'>Mon – Sun: 9.00 am – 8.00pm</div>
+          <div className='h-full flex justify-center items-center gap-2'><MdOutlineEmail size={12} color='#F26736'/>info@hornokplease.ae</div>|
+          <div className='h-full flex justify-center items-center gap-2'><FaPhone size={12} color='#F26736'/> 0562748481</div>|
+          <div className='h-full flex justify-center items-center gap-2'><FaLocationDot size={12} color='#F26736'/> 53rd St- Al sufouh 2, Dubai,UAE</div>
         </div>
         <div className='bg-white h-1/2'>
           <div className='h-full flex justify-around items-center bg-white'>
