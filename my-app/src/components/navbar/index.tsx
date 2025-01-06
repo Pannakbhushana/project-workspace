@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
 
 
   return (
-    <div className={`fixed w-full z-999 text-black shadow-lg transition-transform transform
+    <div className={`fixed w-full z-99999 text-black shadow-lg transition-transform transform
     ${showNav ? 'translate-y-0' : '-translate-y-full'} h-[80px] md:h-[100px] flex justify-between items-center text-meta-blue`}>
 
       {/* Large Screen */}
