@@ -23,6 +23,7 @@ const Services: React.FC = () => {
             <div className="grid grid-cols-1 gap-20 sm:grid-cols-2 lg:grid-cols-3 mt-20 justify-items-center">
                 <CustomCard
                     Logo={FaShuttleVan}
+                    path = {"/know-more"}
                     title="Fast & Reliable Services"
                     description="Providing top-notch logistics and transportation solutions tailored to your needs. Providing top-notch logistics and transportation solutions tailored to your needs."
                     backgroundImage={
@@ -31,6 +32,7 @@ const Services: React.FC = () => {
                 />
                 <CustomCard
                     Logo={FaShuttleVan}
+                    path = {"/know-more"}
                     title="Fast & Reliable Services"
                     description="Providing top-notch logistics and transportation solutions tailored to your needs."
                     backgroundImage={
@@ -39,6 +41,7 @@ const Services: React.FC = () => {
                 />
                 <CustomCard
                     Logo={FaShuttleVan}
+                    path = {"/know-more"}
                     title="Fast & Reliable Services"
                     description="Providing top-notch logistics and transportation solutions tailored to your needs."
                     backgroundImage={

@@ -33,20 +33,21 @@ export default function CaptionCarousel() {
 
     const cards = [
         {
-            title: 'Full Service Moving Company',
-            text: "Welcome to Horn Ok Please",
-            image: 'https://img.freepik.com/premium-photo/trucks-parked-lined-road-freight-industry-logistics-transport_917664-25776.jpg',
-        },
-        {
-            title: 'Best Moving Company In The UAE!',
-            text: "Welcome to Horn Ok Please",
-            image:'https://img.freepik.com/premium-photo/white-truck-highway-forest-landscape-business-transportation_1168123-9060.jpg',
-        },
-        {
             title: 'Fast & Secure Moving Company',
             text: "Welcome to Horn Ok Please",
             image:'./transport.jpg',
         },
+        {
+            title: 'Full Service Moving Company',
+            text: "Welcome to Horn Ok Please",
+            image: 'https://img.freepik.com/premium-photo/cargo-truck-sunny-day-ai-generated-image_53876-198274.jpg',
+        },
+        {
+            title: 'Best Moving Company In The UAE!',
+            text: "Welcome to Horn Ok Please",
+            image:'https://media.licdn.com/dms/image/v2/D4D12AQF4OFLwLnBIyQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730426035131?e=2147483647&v=beta&t=tkUcZKr-6WG-2ocuH6jJKoPuhgfIgS22r-K2pnutPZA',
+        },
+        
     ]
 
     return (

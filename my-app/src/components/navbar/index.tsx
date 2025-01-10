@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
   const [showHamburgerDropdown, setShowHamburgerDropdown] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const navigate = useNavigate();
-  const activeStyle = "text-meta-orange underline underline-offset-4"; 
+  const activeStyle = "text-meta-orange underline"; 
   const inactiveStyle = "";
 
   const handleScroll = () => {
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
     ${showNav ? 'translate-y-0' : '-translate-y-full'} h-[80px] md:h-[100px] flex justify-between items-center text-meta-blue`}>
 
       {/* Large Screen */}
-      <div className='hidden lg:grid place-content-center w-[20%] h-full text-xl font-bold hover:underline underline-offset-8
+      <div className='hidden lg:grid place-content-center w-[20%] h-full text-xl font-bold
                       cursor-pointer bg-white'>
         <img src="./hornokplease.png" alt="" onClick={() => handleNavigate('/')} />
       </div>
