@@ -22,7 +22,7 @@ const OurServices: React.FC = () => {
             />
             <CustomCard
                 Logo={FaShuttleVan}
-                path = {"/know-more"}
+                path = {"/know-more-second-page"}
                 title="Furniture Movers"
                 description="Working with many Furniture companies to deliver and assemble there customer furniture. We are best furniture movers in Dubai. This is what we do at Hornokplease. We make your life easy and your business easier!"
                 backgroundImage={
@@ -31,7 +31,7 @@ const OurServices: React.FC = () => {
             />
             <CustomCard
                 Logo={FaShuttleVan}
-                path = {"/know-more"}
+                path = {"/know-more-third-page"}
                 title="Movers & Packers"
                 description="Packing your house to move can be stressful. If you’re looking for packers and movers in Dubai that will pack for you then you have come to the perfect location."
                 backgroundImage={

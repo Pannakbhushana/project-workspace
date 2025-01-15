@@ -26,7 +26,7 @@ const OurClients: React.FC = () => {
         <div className="relative overflow-hidden mt-[20%] md:mt-[5%]">
         <Marquee speed={70} direction={'left'} pauseOnHover={true}>
         <div
-            className="flex space-x-12 hide-scrollbar"
+            className="flex space-x-17 hide-scrollbar"
             style={{ whiteSpace: 'nowrap' }}
           >
            {

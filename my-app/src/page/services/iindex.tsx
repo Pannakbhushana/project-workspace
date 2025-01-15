@@ -5,6 +5,7 @@ import CustomCard from '../../components/layouts/custom-card';
 import { FaShuttleVan } from "react-icons/fa";
 import { AnimatedText } from '../../components/layouts/animated-text';
 import { EnquireForm } from '../../components/enquire-form.tsx';
+import CustomeSlider from '../../components/slider';
 
 const Services: React.FC = () => {
 
@@ -20,34 +21,36 @@ const Services: React.FC = () => {
                 </div>
             </HeroCard>
 
-            <div className="grid grid-cols-1 gap-20 sm:grid-cols-2 lg:grid-cols-3 mt-20 justify-items-center">
-                <CustomCard
-                    Logo={FaShuttleVan}
-                    path = {"/know-more"}
-                    title="Fast & Reliable Services"
-                    description="Providing top-notch logistics and transportation solutions tailored to your needs. Providing top-notch logistics and transportation solutions tailored to your needs."
-                    backgroundImage={
-                        "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg"
-                    }
-                />
-                <CustomCard
-                    Logo={FaShuttleVan}
-                    path = {"/know-more"}
-                    title="Fast & Reliable Services"
-                    description="Providing top-notch logistics and transportation solutions tailored to your needs."
-                    backgroundImage={
-                        "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg"
-                    }
-                />
-                <CustomCard
-                    Logo={FaShuttleVan}
-                    path = {"/know-more"}
-                    title="Fast & Reliable Services"
-                    description="Providing top-notch logistics and transportation solutions tailored to your needs."
-                    backgroundImage={
-                        "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg"
-                    }
-                />
+            <div className="mt-20 w-full lg:w-[80%]">
+                <CustomeSlider>
+                    <CustomCard
+                        Logo={FaShuttleVan}
+                        path={"/know-more"}
+                        title="Rent a Truck"
+                        description="We all are aware of the hassles whenever we are planning to rent pickup in Dubai. Whether you are an individual looking to move your belongings to a new location or a shop owner who needs to ship goods to your client, everyone has faced the tantrums of the vehicle owners as well as the fluctuating prices. We at “Hornokplease” solve this for you!"
+                        backgroundImage={
+                            "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg"
+                        }
+                    />
+                    <CustomCard
+                        Logo={FaShuttleVan}
+                        path={"/know-more-second-page"}
+                        title="Furniture Movers"
+                        description="Working with many Furniture companies to deliver and assemble there customer furniture. We are best furniture movers in Dubai. This is what we do at Hornokplease. We make your life easy and your business easier!"
+                        backgroundImage={
+                            "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg"
+                        }
+                    />
+                    <CustomCard
+                        Logo={FaShuttleVan}
+                        path={"/know-more-third-page"}
+                        title="Movers & Packers"
+                        description="Packing your house to move can be stressful. If you’re looking for packers and movers in Dubai that will pack for you then you have come to the perfect location."
+                        backgroundImage={
+                            "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg"
+                        }
+                    />
+                </CustomeSlider>
             </div>
 
             <div className="mt-20 w-full">
@@ -71,10 +74,10 @@ const Services: React.FC = () => {
             </div>
 
             <div className='w-full flex justify-end bg-meta-orange'>
-        <div className='w-full lg:w-1/2 flex justify-center items-center'>
-          <EnquireForm />
-        </div>
-      </div>
+                <div className='w-full lg:w-1/2 flex justify-center items-center'>
+                    <EnquireForm />
+                </div>
+            </div>
 
         </div>
     );

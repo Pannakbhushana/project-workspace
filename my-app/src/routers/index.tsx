@@ -7,6 +7,8 @@ import Services from "../page/services/iindex";
 import WhyUs from "../page/why-us";
 import ScrollToTop from "./scroll-to-top";
 import { KnowMore } from "../page/know-more";
+import { PageTwo } from "../page/know-more/page.2";
+import { PageThird } from "../page/know-more/page.3";
 
 const AllRoutes = ()=> {
     return <ScrollToTop>
@@ -16,6 +18,8 @@ const AllRoutes = ()=> {
                 <Route path="/contact" element={<ContactUs/>} />
                 <Route path="/services" element={<Services/>} />
                 <Route path="/know-more" element={<KnowMore/>} />
+                <Route path="/know-more-second-page" element={<PageTwo/>} />
+                <Route path="/know-more-third-page" element={<PageThird/>} />
                 <Route path="/why-us" element={<WhyUs/>} />
             </Routes>
     </ScrollToTop>
