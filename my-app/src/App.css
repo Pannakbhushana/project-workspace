@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-prev:before,
+.slick-next:before {
+  color: #F5B170!important;
+}
+
 .App {
   text-align: center;
 }

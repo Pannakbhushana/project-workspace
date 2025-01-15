@@ -8,8 +8,8 @@ interface DropdownProps extends PropsWithChildren {
 const HeroCard: React.FC<DropdownProps> = ({ children, styles }) => {
   const reactTYpedContent = [
     "Full Service Moving Company",
-    "Best Moving Company In The UAE!",
-    "Fast & Secure Moving Company"
+    "Best Moving Company In The UAE !",
+    "Fast and Secure Moving Company",
   ]
 
   return (
